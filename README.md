@@ -9,7 +9,6 @@ server {
         gzip on;
 	gzip_types      text/css text/plain text/xml application/xml application/javascript application/x-javascript text/javascript application/json text/x-json;
 	gzip_proxied    no-store no-cache private expired auth;
-	#gzip_min_length 1000;
 	gzip_disable     "MSIE [1-6]\.";
 		
 	location /api {
